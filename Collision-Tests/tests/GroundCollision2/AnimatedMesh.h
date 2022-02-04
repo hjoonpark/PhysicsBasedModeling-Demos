@@ -11,7 +11,7 @@
 #include "pxr/base/gf/range3f.h"
 
 #include <Eigen/Dense>
-
+#include <iostream>
 PXR_NAMESPACE_USING_DIRECTIVE
 
 template<class T, int d> // d is the dimension of the mesh elements, e.g. 3 for triangles, 4 for quads
